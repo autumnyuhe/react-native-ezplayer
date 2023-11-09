@@ -7,20 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45AA49825302871116A7E985 /* Pods_react_native_ezplayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D948A67CADCED72EEF9867 /* Pods_react_native_ezplayer.framework */; };
 		A6C55B941FA4614D00876D6C /* EZRNPlayerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C55B901FA4614C00876D6C /* EZRNPlayerViewManager.swift */; };
 		A6C55B951FA4614D00876D6C /* EZRNPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C55B911FA4614D00876D6C /* EZRNPlayerView.swift */; };
 		A6C55B961FA4614D00876D6C /* EZRNPlayerViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C55B931FA4614D00876D6C /* EZRNPlayerViewBridge.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		27B9D5432AFCD15A00F2267E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27B9D53D2AFCD15A00F2267E /* EZPlayer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 995E79171DD99D5A006CE7E9;
-			remoteInfo = EZPlayer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A6C55B6A1FA43E8300876D6C /* CopyFiles */ = {
@@ -35,7 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		27B9D53D2AFCD15A00F2267E /* EZPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EZPlayer.xcodeproj; path = EZPlayer/EZPlayer.xcodeproj; sourceTree = "<group>"; };
+		258C871A147E2DCD2E6C6B82 /* Pods-react-native-ezplayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-ezplayer.debug.xcconfig"; path = "Target Support Files/Pods-react-native-ezplayer/Pods-react-native-ezplayer.debug.xcconfig"; sourceTree = "<group>"; };
+		59047169F81EF7B20C6814B0 /* Pods-react-native-ezplayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-ezplayer.release.xcconfig"; path = "Target Support Files/Pods-react-native-ezplayer/Pods-react-native-ezplayer.release.xcconfig"; sourceTree = "<group>"; };
+		74D948A67CADCED72EEF9867 /* Pods_react_native_ezplayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_native_ezplayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C55B6C1FA43E8300876D6C /* libreact-native-ezplayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libreact-native-ezplayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C55B8F1FA4614C00876D6C /* react-native-ezplayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "react-native-ezplayer-Bridging-Header.h"; sourceTree = "<group>"; };
 		A6C55B901FA4614C00876D6C /* EZRNPlayerViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZRNPlayerViewManager.swift; sourceTree = "<group>"; };
@@ -49,26 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45AA49825302871116A7E985 /* Pods_react_native_ezplayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27B9D53E2AFCD15A00F2267E /* Products */ = {
+		220B1F238342F62F5FB1EE46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				27B9D5442AFCD15A00F2267E /* EZPlayer.framework */,
+				74D948A67CADCED72EEF9867 /* Pods_react_native_ezplayer.framework */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52AF30689A1FD6BA6D2B7985 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				258C871A147E2DCD2E6C6B82 /* Pods-react-native-ezplayer.debug.xcconfig */,
+				59047169F81EF7B20C6814B0 /* Pods-react-native-ezplayer.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		A6C55B631FA43E8300876D6C = {
 			isa = PBXGroup;
 			children = (
-				27B9D53D2AFCD15A00F2267E /* EZPlayer.xcodeproj */,
 				A6C55B6E1FA43E8300876D6C /* react-native-ezplayer */,
 				A6C55B6D1FA43E8300876D6C /* Products */,
+				52AF30689A1FD6BA6D2B7985 /* Pods */,
+				220B1F238342F62F5FB1EE46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +103,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6C55B751FA43E8300876D6C /* Build configuration list for PBXNativeTarget "react-native-ezplayer" */;
 			buildPhases = (
+				F483D6B93D137E5E99A9F66A /* [CP] Check Pods Manifest.lock */,
 				A6C55B681FA43E8300876D6C /* Sources */,
 				A6C55B691FA43E8300876D6C /* Frameworks */,
 				A6C55B6A1FA43E8300876D6C /* CopyFiles */,
@@ -138,12 +143,6 @@
 			mainGroup = A6C55B631FA43E8300876D6C;
 			productRefGroup = A6C55B6D1FA43E8300876D6C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 27B9D53E2AFCD15A00F2267E /* Products */;
-					ProjectRef = 27B9D53D2AFCD15A00F2267E /* EZPlayer.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A6C55B6B1FA43E8300876D6C /* react-native-ezplayer */,
@@ -151,15 +150,30 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		27B9D5442AFCD15A00F2267E /* EZPlayer.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EZPlayer.framework;
-			remoteRef = 27B9D5432AFCD15A00F2267E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
+/* Begin PBXShellScriptBuildPhase section */
+		F483D6B93D137E5E99A9F66A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-react-native-ezplayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXReferenceProxy section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A6C55B681FA43E8300876D6C /* Sources */ = {
@@ -223,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -272,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -281,10 +295,11 @@
 		};
 		A6C55B761FA43E8300876D6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258C871A147E2DCD2E6C6B82 /* Pods-react-native-ezplayer.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,10 +313,11 @@
 		};
 		A6C55B771FA43E8300876D6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59047169F81EF7B20C6814B0 /* Pods-react-native-ezplayer.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
