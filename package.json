@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/autumnyuhe/react-native-ez-player.git",
-    "baseUrl": "https://github.com/autumnyuhe/react-native-ez-player"
+    "url": "git+https://github.com/autumnyuhe/react-native-ezplayer.git",
+    "baseUrl": "https://github.com/autumnyuhe/react-native-ezplayer"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "autumnyuhe",
+    "email": "autumnyuhe@126.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
