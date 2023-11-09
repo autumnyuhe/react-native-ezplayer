@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
 
   s.dependency "React"
   # ...
-  s.dependency "ezplayer", "git+https://github.com/autumnyuhe/ezplayer.git"
+  s.dependency 'ezplayer', :git => 'https://github.com/autumnyuhe/ezplayer.git'
 end
 
