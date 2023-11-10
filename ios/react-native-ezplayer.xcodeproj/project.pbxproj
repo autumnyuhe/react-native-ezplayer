@@ -35,6 +35,10 @@
 		27B9D6412AFE2B0600F2267E /* EZPlayerWindowContainerRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D6132AFE29E900F2267E /* EZPlayerWindowContainerRootViewController.xib */; };
 		27B9D6422AFE2B0600F2267E /* EZPlayerWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D6232AFE29E900F2267E /* EZPlayerWindowView.xib */; };
 		27B9D6442AFE2B8E00F2267E /* XibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9D6432AFE2B8E00F2267E /* XibLoader.swift */; };
+		27B9D6522AFE557100F2267E /* EZPlayerWindowContainerRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D64E2AFE557100F2267E /* EZPlayerWindowContainerRootViewController.xib */; };
+		27B9D6532AFE557100F2267E /* EZPlayerAudibleLegibleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D64F2AFE557100F2267E /* EZPlayerAudibleLegibleViewController.xib */; };
+		27B9D6542AFE557100F2267E /* EZPlayerControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D6502AFE557100F2267E /* EZPlayerControlView.xib */; };
+		27B9D6552AFE557100F2267E /* EZPlayerWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D6512AFE557100F2267E /* EZPlayerWindowView.xib */; };
 		45AA49825302871116A7E985 /* Pods_react_native_ezplayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D948A67CADCED72EEF9867 /* Pods_react_native_ezplayer.framework */; };
 		A6C55B941FA4614D00876D6C /* EZRNPlayerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C55B901FA4614C00876D6C /* EZRNPlayerViewManager.swift */; };
 		A6C55B951FA4614D00876D6C /* EZRNPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C55B911FA4614D00876D6C /* EZRNPlayerView.swift */; };
@@ -83,9 +87,13 @@
 		27B9D6222AFE29E900F2267E /* Timer+EZPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Timer+EZPlayer.swift"; sourceTree = "<group>"; };
 		27B9D6232AFE29E900F2267E /* EZPlayerWindowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZPlayerWindowView.xib; sourceTree = "<group>"; };
 		27B9D6242AFE29E900F2267E /* EZPlayerNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZPlayerNotification.swift; sourceTree = "<group>"; };
-		27B9D6252AFE29E900F2267E /* EZPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = EZPlayer.bundle; sourceTree = "<group>"; };
 		27B9D6262AFE29E900F2267E /* AVAsset+EZPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVAsset+EZPlayer.swift"; sourceTree = "<group>"; };
 		27B9D6432AFE2B8E00F2267E /* XibLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibLoader.swift; sourceTree = "<group>"; };
+		27B9D6492AFE443300F2267E /* react-native-ezplayerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "react-native-ezplayerBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B9D64E2AFE557100F2267E /* EZPlayerWindowContainerRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZPlayerWindowContainerRootViewController.xib; sourceTree = "<group>"; };
+		27B9D64F2AFE557100F2267E /* EZPlayerAudibleLegibleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZPlayerAudibleLegibleViewController.xib; sourceTree = "<group>"; };
+		27B9D6502AFE557100F2267E /* EZPlayerControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZPlayerControlView.xib; sourceTree = "<group>"; };
+		27B9D6512AFE557100F2267E /* EZPlayerWindowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZPlayerWindowView.xib; sourceTree = "<group>"; };
 		3E4078DAE76C90B6FCC2AC4F /* Pods-react-native-ezplayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-ezplayer.release.xcconfig"; path = "Target Support Files/Pods-react-native-ezplayer/Pods-react-native-ezplayer.release.xcconfig"; sourceTree = "<group>"; };
 		74D948A67CADCED72EEF9867 /* Pods_react_native_ezplayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_native_ezplayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C55B6C1FA43E8300876D6C /* libreact-native-ezplayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libreact-native-ezplayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +105,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		27B9D6462AFE443300F2267E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6C55B691FA43E8300876D6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,7 +138,6 @@
 				27B9D6172AFE29E900F2267E /* AVPlayer+EZPlayer.swift */,
 				27B9D61F2AFE29E900F2267E /* AVPlayerItem+EZPlayer.swift */,
 				27B9D60C2AFE29E900F2267E /* Delay.swift */,
-				27B9D6252AFE29E900F2267E /* EZPlayer.bundle */,
 				27B9D6152AFE29E900F2267E /* EZPlayer.h */,
 				27B9D60A2AFE29E900F2267E /* EZPlayer.swift */,
 				27B9D60F2AFE29E900F2267E /* EZPlayer.xcassets */,
@@ -154,6 +168,17 @@
 			path = EZPlayer;
 			sourceTree = "<group>";
 		};
+		27B9D64D2AFE557100F2267E /* EZPlayerBundle */ = {
+			isa = PBXGroup;
+			children = (
+				27B9D64E2AFE557100F2267E /* EZPlayerWindowContainerRootViewController.xib */,
+				27B9D64F2AFE557100F2267E /* EZPlayerAudibleLegibleViewController.xib */,
+				27B9D6502AFE557100F2267E /* EZPlayerControlView.xib */,
+				27B9D6512AFE557100F2267E /* EZPlayerWindowView.xib */,
+			);
+			path = EZPlayerBundle;
+			sourceTree = "<group>";
+		};
 		A09807EA640ACB339DEC814B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				A6C55B6C1FA43E8300876D6C /* libreact-native-ezplayer.a */,
+				27B9D6492AFE443300F2267E /* react-native-ezplayerBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +210,7 @@
 		A6C55B6E1FA43E8300876D6C /* react-native-ezplayer */ = {
 			isa = PBXGroup;
 			children = (
+				27B9D64D2AFE557100F2267E /* EZPlayerBundle */,
 				27B9D6082AFE29E900F2267E /* EZPlayer */,
 				A6C55B911FA4614D00876D6C /* EZRNPlayerView.swift */,
 				A6C55B921FA4614D00876D6C /* EZRNPlayerViewBridge.h */,
@@ -197,6 +224,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		27B9D6482AFE443300F2267E /* react-native-ezplayerBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B9D64C2AFE443300F2267E /* Build configuration list for PBXNativeTarget "react-native-ezplayerBundle" */;
+			buildPhases = (
+				27B9D6452AFE443300F2267E /* Sources */,
+				27B9D6462AFE443300F2267E /* Frameworks */,
+				27B9D6472AFE443300F2267E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "react-native-ezplayerBundle";
+			productName = "react-native-ezplayerBundle";
+			productReference = 27B9D6492AFE443300F2267E /* react-native-ezplayerBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		A6C55B6B1FA43E8300876D6C /* react-native-ezplayer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6C55B751FA43E8300876D6C /* Build configuration list for PBXNativeTarget "react-native-ezplayer" */;
@@ -225,6 +269,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Zhu yangjun";
 				TargetAttributes = {
+					27B9D6482AFE443300F2267E = {
+						CreatedOnToolsVersion = 13.4.1;
+						ProvisioningStyle = Automatic;
+					};
 					A6C55B6B1FA43E8300876D6C = {
 						CreatedOnToolsVersion = 9.0.1;
 						LastSwiftMigration = 0900;
@@ -245,6 +293,7 @@
 			projectRoot = "";
 			targets = (
 				A6C55B6B1FA43E8300876D6C /* react-native-ezplayer */,
+				27B9D6482AFE443300F2267E /* react-native-ezplayerBundle */,
 			);
 		};
 /* End PBXProject section */
@@ -258,6 +307,17 @@
 				27B9D6402AFE2B0600F2267E /* EZPlayerControlView.xib in Resources */,
 				27B9D6412AFE2B0600F2267E /* EZPlayerWindowContainerRootViewController.xib in Resources */,
 				27B9D6422AFE2B0600F2267E /* EZPlayerWindowView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B9D6472AFE443300F2267E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B9D6542AFE557100F2267E /* EZPlayerControlView.xib in Resources */,
+				27B9D6532AFE557100F2267E /* EZPlayerAudibleLegibleViewController.xib in Resources */,
+				27B9D6552AFE557100F2267E /* EZPlayerWindowView.xib in Resources */,
+				27B9D6522AFE557100F2267E /* EZPlayerWindowContainerRootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +349,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		27B9D6452AFE443300F2267E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6C55B681FA43E8300876D6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,6 +393,63 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		27B9D64A2AFE443300F2267E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZAXG966T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Zhu yangjun. All rights reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.txwl.react-native-ezplayerBundle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		27B9D64B2AFE443300F2267E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZAXG966T6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Zhu yangjun. All rights reserved.";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.txwl.react-native-ezplayerBundle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		A6C55B731FA43E8300876D6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -358,6 +482,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -413,6 +538,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -476,6 +602,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		27B9D64C2AFE443300F2267E /* Build configuration list for PBXNativeTarget "react-native-ezplayerBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B9D64A2AFE443300F2267E /* Debug */,
+				27B9D64B2AFE443300F2267E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A6C55B671FA43E8300876D6C /* Build configuration list for PBXProject "react-native-ezplayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -883,7 +883,10 @@ open class EZPlayer: NSObject {
             //初始化的时候
             if self.controlView == nil {
 //                self.controlViewForEmbedded =  Bundle(for: EZPlayerControlView.self).loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
-                self.controlViewForEmbedded = XibLoader.loadViewFromXib(xibName: "EZPlayerControlView")
+                
+                self.controlViewForEmbedded =  Bundle(identifier:"react-native-ezplayerBundle")!.loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
+                
+//                self.controlViewForEmbedded = XibLoader.loadViewFromXib(xibName: "EZPlayerControlView")
             }
         }
         self.displayMode = nextDisplayMode
