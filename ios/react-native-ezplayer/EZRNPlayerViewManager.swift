@@ -8,7 +8,7 @@
 
 import Foundation
 
-import EZPlayer
+//import EZPlayer
 
 @objc(EZRNPlayerViewManager)
 class EZRNPlayerViewManager : RCTViewManager {
