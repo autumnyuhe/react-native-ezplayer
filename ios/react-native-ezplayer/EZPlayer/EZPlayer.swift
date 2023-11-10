@@ -882,7 +882,8 @@ open class EZPlayer: NSObject {
         case .none:
             //初始化的时候
             if self.controlView == nil {
-                self.controlViewForEmbedded =  Bundle(for: EZPlayerControlView.self).loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
+//                self.controlViewForEmbedded =  Bundle(for: EZPlayerControlView.self).loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
+                self.controlViewForEmbedded = XibLoader.loadViewFromXib(xibName: "EZPlayerControlView")
             }
         }
         self.displayMode = nextDisplayMode
