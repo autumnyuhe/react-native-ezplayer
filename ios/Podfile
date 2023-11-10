@@ -6,7 +6,5 @@ target 'react-native-ezplayer' do
   use_frameworks!
 
   # Pods for react-native-ezplayer
-  pod 'EZPlayer', :git =>'https://github.com/autumnyuhe/ezplayer.git'
-	
 
 end

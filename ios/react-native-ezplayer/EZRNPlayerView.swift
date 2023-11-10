@@ -8,7 +8,7 @@
 
 import UIKit
 
-import EZPlayer
+//import EZPlayer
 
 @objcMembers
 open class EZRNPlayerView: UIView {
