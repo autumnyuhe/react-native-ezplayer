@@ -31,11 +31,6 @@
 		27B9D63C2AFE29E900F2267E /* EZPlayerNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9D6242AFE29E900F2267E /* EZPlayerNotification.swift */; };
 		27B9D63D2AFE29E900F2267E /* AVAsset+EZPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9D6262AFE29E900F2267E /* AVAsset+EZPlayer.swift */; };
 		27B9D6442AFE2B8E00F2267E /* XibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9D6432AFE2B8E00F2267E /* XibLoader.swift */; };
-		27B9D6562AFF1A0600F2267E /* EZPlayerAudibleLegibleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D6162AFE29E900F2267E /* EZPlayerAudibleLegibleViewController.xib */; };
-		27B9D6572AFF1A0600F2267E /* EZPlayerControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D61E2AFE29E900F2267E /* EZPlayerControlView.xib */; };
-		27B9D6582AFF1A0600F2267E /* EZPlayerWindowContainerRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D6132AFE29E900F2267E /* EZPlayerWindowContainerRootViewController.xib */; };
-		27B9D6592AFF1A0600F2267E /* EZPlayerWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D6232AFE29E900F2267E /* EZPlayerWindowView.xib */; };
-		27B9D65B2AFF1E8900F2267E /* EZPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D65A2AFF1E8900F2267E /* EZPlayer.bundle */; };
 		27B9D6612AFF281F00F2267E /* EZPlayerWindowContainerRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D65D2AFF281F00F2267E /* EZPlayerWindowContainerRootViewController.xib */; };
 		27B9D6622AFF281F00F2267E /* EZPlayerAudibleLegibleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D65E2AFF281F00F2267E /* EZPlayerAudibleLegibleViewController.xib */; };
 		27B9D6632AFF281F00F2267E /* EZPlayerControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D65F2AFF281F00F2267E /* EZPlayerControlView.xib */; };
@@ -261,13 +256,8 @@
 			files = (
 				27B9D6632AFF281F00F2267E /* EZPlayerControlView.xib in Resources */,
 				27B9D6642AFF281F00F2267E /* EZPlayerWindowView.xib in Resources */,
-				27B9D6562AFF1A0600F2267E /* EZPlayerAudibleLegibleViewController.xib in Resources */,
-				27B9D65B2AFF1E8900F2267E /* EZPlayer.bundle in Resources */,
 				27B9D6612AFF281F00F2267E /* EZPlayerWindowContainerRootViewController.xib in Resources */,
 				27B9D6622AFF281F00F2267E /* EZPlayerAudibleLegibleViewController.xib in Resources */,
-				27B9D6572AFF1A0600F2267E /* EZPlayerControlView.xib in Resources */,
-				27B9D6582AFF1A0600F2267E /* EZPlayerWindowContainerRootViewController.xib in Resources */,
-				27B9D6592AFF1A0600F2267E /* EZPlayerWindowView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
