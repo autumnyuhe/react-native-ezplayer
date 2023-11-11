@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -20,7 +19,7 @@
                         <constraint firstAttribute="width" constant="40" id="OGP-Xo-NRK"/>
                         <constraint firstAttribute="height" constant="40" id="c1N-k7-lxg"/>
                     </constraints>
-                    <state key="normal" image="btn_float_close20x20"/>
+                    <state key="normal" image="btn_float_close20x20.png"/>
                     <connections>
                         <action selector="closeButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Wi3-fB-Xi4"/>
                     </connections>
@@ -32,7 +31,7 @@
                         <constraint firstAttribute="height" constant="40" id="Ynr-ye-Iln"/>
                         <constraint firstAttribute="width" constant="40" id="k22-vC-FyL"/>
                     </constraints>
-                    <state key="normal" image="btn_pip_stop"/>
+                    <state key="normal" image="btn_pip_stop.png"/>
                     <connections>
                         <action selector="backButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="mfe-JG-LdG"/>
                     </connections>
@@ -53,7 +52,7 @@
         </view>
     </objects>
     <resources>
-        <image name="btn_float_close20x20" width="20" height="20"/>
-        <image name="btn_pip_stop" width="24" height="24"/>
+        <image name="btn_float_close20x20.png" width="20" height="20"/>
+        <image name="btn_pip_stop.png" width="24" height="24"/>
     </resources>
 </document>
