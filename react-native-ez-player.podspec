@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.authors      = { "Your Name" => "autumnyuhe@email.com" }
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/autumnyuhe/react-native-ez-player.git", :tag => "#{s.version}" }
-  s.resource_bundle        = { "EZPlayer" => ["ios/react-native-ezplayer/EZPlayer/*.xib"]}
+  s.resource_bundle        = { "EZPlayerBundle" => ["ios/react-native-ezplayer/EZPlayer/*.xib"]}
 
   s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift,xib,bundle}"
   s.requires_arc = true
