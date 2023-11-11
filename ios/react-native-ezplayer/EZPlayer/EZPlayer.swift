@@ -854,7 +854,8 @@ open class EZPlayer: NSObject {
             //playerView加问号，其实不关心playerView存不存在，存在就更新
             if self.playerView?.controlView == nil || self.playerView?.controlView != self.controlViewForEmbedded{
                 if self.controlViewForEmbedded == nil {
-                    self.controlViewForEmbedded = self.controlViewForFullscreen ?? Bundle(for: EZPlayerControlView.self).loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
+//                    self.controlViewForEmbedded = self.controlViewForFullscreen ?? Bundle(for: EZPlayerControlView.self).loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
+                    self.controlViewForEmbedded = self.controlViewForFullscreen ?? XibLoader.loadViewFromXib(xibName: "EZPlayerControlView")
                 }
             }
             self.playerView?.controlView = self.controlViewForEmbedded
@@ -862,7 +863,9 @@ open class EZPlayer: NSObject {
         case .fullscreen:
             if self.playerView?.controlView == nil || self.playerView?.controlView != self.controlViewForFullscreen{
                 if self.controlViewForFullscreen == nil {
-                    self.controlViewForFullscreen = self.controlViewForEmbedded ?? Bundle(for: EZPlayerControlView.self).loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
+//                    self.controlViewForFullscreen = self.controlViewForEmbedded ?? Bundle(for: EZPlayerControlView.self).loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
+                    
+                    self.controlViewForFullscreen = self.controlViewForEmbedded ?? XibLoader.loadViewFromXib(xibName: "EZPlayerControlView")
                 }
             }
             self.playerView?.controlView = self.controlViewForFullscreen
@@ -874,7 +877,9 @@ open class EZPlayer: NSObject {
             let floatModelSupported = EZPlayerUtils.floatModelSupported(self)
             if self.playerView?.controlView == nil || self.playerView?.controlView != self.controlViewForFloat{
                 if self.controlViewForFloat == nil {
-                    self.controlViewForFloat = floatModelSupported == .window ?  Bundle(for: EZPlayerWindowView.self).loadNibNamed(String(describing: EZPlayerWindowView.self), owner: self, options: nil)?.last as? UIView : Bundle(for: EZPlayerControlView.self).loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
+//                    self.controlViewForFloat = floatModelSupported == .window ?  Bundle(for: EZPlayerWindowView.self).loadNibNamed(String(describing: EZPlayerWindowView.self), owner: self, options: nil)?.last as? UIView : Bundle(for: EZPlayerControlView.self).loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
+                    
+                    self.controlViewForFloat = floatModelSupported == .window ?  XibLoader.loadViewFromXib(xibName: "EZPlayerWindowView") : XibLoader.loadViewFromXib(xibName: "EZPlayerControlView")
                 }
             }
             self.playerView?.controlView = self.controlViewForFloat
@@ -884,9 +889,9 @@ open class EZPlayer: NSObject {
             if self.controlView == nil {
 //                self.controlViewForEmbedded =  Bundle(for: EZPlayerControlView.self).loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
                 
-                self.controlViewForEmbedded =  Bundle(identifier:"EZPlayer")!.loadNibNamed(String(describing: EZPlayerControlView.self), owner: nil, options: nil)?.last as? EZPlayerControlView
+//                self.controlViewForEmbedded =  Bundle(identifier:"EZPlayer")!.loadNibNamed(String(describing: EZPlayerControlView.self), owner: nil, options: nil)?.last as? EZPlayerControlView
                 
-//                self.controlViewForEmbedded = XibLoader.loadViewFromXib(xibName: "EZPlayerControlView")
+                self.controlViewForEmbedded = XibLoader.loadViewFromXib(xibName: "EZPlayerControlView")
             }
         }
         self.displayMode = nextDisplayMode

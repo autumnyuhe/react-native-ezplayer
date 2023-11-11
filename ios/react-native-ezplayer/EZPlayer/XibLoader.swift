@@ -11,9 +11,10 @@ import UIKit
 public class XibLoader {
 
     public static func loadViewFromXib(xibName: String, owner: Any? = nil, options: [UINib.OptionsKey: Any]? = nil) -> UIView? {
-        let bundle = Bundle(identifier: "react-native-ezplayerBundle")
-        let nib = UINib(nibName: xibName, bundle: bundle)
-        return nib.instantiate(withOwner: owner, options: options).first as? UIView
-    }
+            let filePath = Bundle.main.path(forResource: "EZPlayerBundle", ofType: "bundle")
+            let bundle = Bundle(path: filePath!)
+            let nib = UINib(nibName: xibName, bundle: bundle)
+            return nib.instantiate(withOwner: owner, options: options).first as? UIView
+        }
 
 }
