@@ -1237,7 +1237,7 @@ extension EZPlayer {
 extension EZPlayer {
     private func configFloatVideo(){
         if self.floatContainerRootViewController == nil {
-            self.floatContainerRootViewController = EZPlayerWindowContainerRootViewController(nibName: String(describing: EZPlayerWindowContainerRootViewController.self), bundle: Bundle(for: EZPlayerWindowContainerRootViewController.self))
+            self.floatContainerRootViewController = EZPlayerWindowContainerRootViewController(nibName: String(describing: EZPlayerWindowContainerRootViewController.self), bundle: XibLoader.loadXibBudle())
         }
         if self.floatContainer == nil {
             self.floatContainer = EZPlayerWindowContainer(frame: self.floatInitFrame, rootViewController: self.floatContainerRootViewController!)
@@ -1265,7 +1265,7 @@ extension EZPlayer {
             self.view.removeFromSuperview()
             
             //添加悬浮关闭按钮
-            let buttonImage = UIImage(named: "btn_float_close20x20", in: Bundle(for: EZPlayer.self), compatibleWith: nil)
+            let buttonImage = UIImage(named: "btn_float_close20x20", in: XibLoader.loadImageBudle(), compatibleWith: nil)
 
             // 创建关闭按钮
             let closeButton = UIButton(type: .custom) // 使用.custom类型以自定义按钮的外观
@@ -1281,7 +1281,7 @@ extension EZPlayer {
             closeButton.addTarget(self, action: #selector(imageButtonTapped), for: .touchUpInside)
             
             //添加悬浮全屏按钮
-            let expandImage = UIImage(named: "btn_fullscreen22x22", in: Bundle(for: EZPlayer.self), compatibleWith: nil)
+            let expandImage = UIImage(named: "btn_fullscreen22x22", in: XibLoader.loadImageBudle(), compatibleWith: nil)
 
             // 创建关闭按钮
             let expandButton = UIButton(type: .custom) // 使用.custom类型以自定义按钮的外观
