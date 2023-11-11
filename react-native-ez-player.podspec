@@ -20,11 +20,12 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/autumnyuhe/react-native-ez-player.git", :tag => "#{s.version}" }
 
-  s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift,xib,bundle}"
+  s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift,xib,Bundle}"
   s.requires_arc = true
 
   s.dependency "React"
-  s.static_framework = true
+
+  # s.static_framework = true
   # ...
   # s.dependency 
 end

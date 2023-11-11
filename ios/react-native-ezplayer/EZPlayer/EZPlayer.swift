@@ -884,7 +884,7 @@ open class EZPlayer: NSObject {
             if self.controlView == nil {
 //                self.controlViewForEmbedded =  Bundle(for: EZPlayerControlView.self).loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
                 
-                self.controlViewForEmbedded =  Bundle(identifier:"react-native-ezplayerBundle")!.loadNibNamed(String(describing: EZPlayerControlView.self), owner: self, options: nil)?.last as? EZPlayerControlView
+                self.controlViewForEmbedded =  Bundle(identifier:"EZPlayer")!.loadNibNamed(String(describing: EZPlayerControlView.self), owner: nil, options: nil)?.last as? EZPlayerControlView
                 
 //                self.controlViewForEmbedded = XibLoader.loadViewFromXib(xibName: "EZPlayerControlView")
             }
