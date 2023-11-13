@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		278BE03E2B02169100E6CEDF /* EZPlayerControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D61E2AFE29E900F2267E /* EZPlayerControlView.xib */; };
+		278BE03F2B0216B300E6CEDF /* EZPlayerAudibleLegibleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D6162AFE29E900F2267E /* EZPlayerAudibleLegibleViewController.xib */; };
+		278BE0402B0216DF00E6CEDF /* EZPlayerWindowContainerRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D6132AFE29E900F2267E /* EZPlayerWindowContainerRootViewController.xib */; };
+		278BE0412B0216F400E6CEDF /* EZPlayerWindowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B9D6232AFE29E900F2267E /* EZPlayerWindowView.xib */; };
 		27B9D6272AFE29E900F2267E /* EZPlayerWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9D6092AFE29E900F2267E /* EZPlayerWindowView.swift */; };
 		27B9D6282AFE29E900F2267E /* EZPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9D60A2AFE29E900F2267E /* EZPlayer.swift */; };
 		27B9D6292AFE29E900F2267E /* EZPlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B9D60B2AFE29E900F2267E /* EZPlayerControlView.swift */; };
@@ -298,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				278BE03F2B0216B300E6CEDF /* EZPlayerAudibleLegibleViewController.xib in Resources */,
 				27B9D6C42AFF7C2B00F2267E /* btn_back24x25@2x.png in Resources */,
 				27B9D6D52AFF7C2B00F2267E /* btn_float_close20x20@2x.png in Resources */,
 				27B9D6D32AFF7C2B00F2267E /* btn_pause22x22@2x.png in Resources */,
@@ -307,6 +312,7 @@
 				27B9D6D62AFF7C2B00F2267E /* btn_float_close20x20@3x.png in Resources */,
 				27B9D6C12AFF7C2B00F2267E /* ZZZZPackedAsset-3.0@3x.png in Resources */,
 				27B9D6D02AFF7C2B00F2267E /* btn_audiosubtitle.png in Resources */,
+				278BE03E2B02169100E6CEDF /* EZPlayerControlView.xib in Resources */,
 				27B9D6CC2AFF7C2B00F2267E /* btn_airplay.png in Resources */,
 				27B9D6CA2AFF7C2B00F2267E /* btnscreen22x22@3x.png in Resources */,
 				27B9D6BB2AFF7C2B00F2267E /* ZZZZPackedAsset-2.0@2x.png in Resources */,
@@ -318,6 +324,8 @@
 				27B9D6C82AFF7C2B00F2267E /* btn_pip_start@2x.png in Resources */,
 				27B9D6CB2AFF7C2B00F2267E /* btn_pause22x22@3x.png in Resources */,
 				27B9D6C32AFF7C2B00F2267E /* btn_airplay@2x.png in Resources */,
+				278BE0412B0216F400E6CEDF /* EZPlayerWindowView.xib in Resources */,
+				278BE0402B0216DF00E6CEDF /* EZPlayerWindowContainerRootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

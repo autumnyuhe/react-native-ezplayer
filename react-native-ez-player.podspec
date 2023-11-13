@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.resource_bundles        = { "EZPlayerBundle" => ["ios/react-native-ezplayer/EZPlayer/*.xib"],
   "EZPlayerImageBundle" => ["ios/react-native-ezplayer/EZPlayer/image/*.png"]
   }
-  s.resources = ["ios/react-native-ezplayer/EZPlayer/*"]
+  s.resources = ["ios/react-native-ezplayer/EZPlayer/*xib"]
 
   s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift,xib,bundle,png}"
   s.requires_arc = true
