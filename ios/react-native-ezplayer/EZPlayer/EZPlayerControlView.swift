@@ -52,6 +52,9 @@ open class EZPlayerControlView: UIView{
     @IBOutlet weak var pipButtonWidthConstraint: NSLayoutConstraint!
     @IBOutlet weak var airplayContainer: UIView!
 
+    @IBOutlet weak var pipButton: UIButton!
+    @IBOutlet weak var audioSubtitleCCButton: UIButton!
+    @IBOutlet weak var backButton: UIButton!
     // MARK: - Life cycle
 
     deinit {
@@ -86,6 +89,16 @@ open class EZPlayerControlView: UIView{
         self.airplayContainer.addSubview(airplayView)
         //        self.loading.start()
 
+        let backImage = UIImage(named: "btn_back24x25.png", in: XibLoader.loadImageBudle(),compatibleWith: nil)
+        self.backButton.setImage(backImage, for: UIControl.State.normal)
+        
+        self.playPauseButton.setImage(UIImage(named: "btn_play22x22", in: XibLoader.loadImageBudle(), compatibleWith: nil), for: .normal)
+        
+        self.audioSubtitleCCButton.setImage(UIImage(named: "btn_audiosubtitle", in: XibLoader.loadImageBudle(), compatibleWith: nil), for: .normal)
+        
+        self.pipButton.setImage(UIImage(named: "btn_pip_start", in: XibLoader.loadImageBudle(), compatibleWith: nil), for: .normal)
+        
+        self.fullEmbeddedScreenButton.setImage(UIImage(named: "btn_fullscreen22x22", in: XibLoader.loadImageBudle(), compatibleWith: nil), for: .normal)
 
     }
 
