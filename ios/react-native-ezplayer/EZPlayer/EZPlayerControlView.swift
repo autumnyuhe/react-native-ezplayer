@@ -89,7 +89,7 @@ open class EZPlayerControlView: UIView{
         self.airplayContainer.addSubview(airplayView)
         //        self.loading.start()
 
-        let backImage = UIImage(named: "btn_back24x25.png", in: XibLoader.loadImageBudle(),compatibleWith: nil)
+        let backImage = UIImage(named: "btn_back24x25", in: XibLoader.loadImageBudle(),compatibleWith: nil)
         self.backButton.setImage(backImage, for: UIControl.State.normal)
         
         self.playPauseButton.setImage(UIImage(named: "btn_play22x22", in: XibLoader.loadImageBudle(), compatibleWith: nil), for: .normal)
