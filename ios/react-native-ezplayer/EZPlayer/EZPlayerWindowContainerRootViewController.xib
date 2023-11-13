@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EZPlayerWindowContainerRootViewController" customModule="react-native-ez-player">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EZPlayerWindowContainerRootViewController" customModule="react_native_ez_player">
             <connections>
                 <outlet property="view" destination="iN0-l3-epB" id="xf4-yH-Bm8"/>
             </connections>

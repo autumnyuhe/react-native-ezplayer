@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EZPlayerControlView" customModule="react-native-ez-player">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EZPlayerControlView" customModule="react_native_ez_player">
             <rect key="frame" x="0.0" y="0.0" width="640" height="360"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -179,7 +179,7 @@
                         <constraint firstItem="B3R-ow-cTT" firstAttribute="top" secondItem="2wv-Bw-wLE" secondAttribute="top" id="YQg-jq-Yh8"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0fc-Wh-O2V" customClass="EZPlayerLoading" customModule="react-native-ez-player">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0fc-Wh-O2V" customClass="EZPlayerLoading" customModule="react_native_ez_player">
                     <rect key="frame" x="290" y="150" width="60" height="60"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29935344829999999" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
